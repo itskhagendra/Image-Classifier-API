@@ -4,10 +4,10 @@ This project contains the code for creating a REST API for a Image classifictaio
 
 just make sure that you change the relevent paramets if you change the models such as tensor size and weights 
 
-'model = ResNet50(weights="imagenet")'
+`model = ResNet50(weights="imagenet")`
 
-'from keras.applications import ResNet50'
+`from keras.applications import ResNet50`
 
-' image = prepare_image(image, target=(224, 224))'
+`image = prepare_image(image, target=(224, 224))`
 
 ##
