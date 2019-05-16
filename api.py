@@ -81,8 +81,7 @@ def predict():
 def home():
     return flask.render_template("index.html")
 
-
 if __name__ =="__main__":
-    print("Its working we are making the systems Ready")
+    print(("**Please Wait We are making all systems"))
     load_model()
     app.run()
