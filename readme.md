@@ -10,4 +10,9 @@ just make sure that you change the relevent paramets if you change the models su
 
 `image = prepare_image(image, target=(224, 224))`
 
-##
+## Requirements 
+> * Keras
+> * Flask
+**Note** __Strong__ : all other libraries will be installed other while installing these libraires
+
+in some case you might need to install Keras Applications library manually if it is not working in your system
